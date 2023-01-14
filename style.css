@@ -1,5 +1,18 @@
+body{
+    color: blue;
+}
+h1,h2{
+    text-align: center;
+}
+.container{
+    text-align: center;
+    font-size: 42px;
+}
 .cell{
+    display: flex;
     min-height: 150px;
     max-width: 200px;
+    justify-content: center;
+    align-items: center;
 }
 
